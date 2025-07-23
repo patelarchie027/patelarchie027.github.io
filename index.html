@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEbMoFkQW+faYwD59rNvXPNIy+A==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEbMoFkQW+faYwD59rNvXPNIy+A==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
         body {
@@ -52,6 +53,7 @@
 </head>
 <body class="text-slate-700">
 
+    <!-- Header & Navigation -->
     <header id="header" class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-xl font-bold text-slate-800">Archie Patel</a>
@@ -65,7 +67,7 @@
                 <a href="#contact" class="nav-link text-slate-600 hover:text-amber-600 border-b-2 border-transparent pb-1">Contact</a>
             </div>
             <a href="./Archie_Updated_Resume.pdf" download="Archie_Updated_Resume.pdf" class="hidden md:block bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors">
-                Resume
+                Download Resume
             </a>
             <div class="md:hidden">
                 <a href="./Archie_Updated_Resume.pdf" download="Archie_Updated_Resume.pdf" class="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-3 rounded-lg transition-colors text-sm">
@@ -77,6 +79,7 @@
 
     <main class="container mx-auto px-6 py-12 md:py-20">
 
+        <!-- About Section -->
         <section id="about" class="text-center mb-20 md:mb-32 scroll-mt-20">
             <h1 class="text-4xl md:text-6xl font-bold text-slate-800 mb-4">Archie Patel</h1>
             <p class="text-xl md:text-2xl text-amber-600 font-medium mb-8">DevOps & Cloud Enthusiast</p>
@@ -104,6 +107,7 @@
             </div>
         </section>
 
+        <!-- Skills Section -->
         <section id="skills" class="mb-20 md:mb-32 scroll-mt-20">
             <h2 class="text-3xl font-bold text-slate-800 text-center mb-4">Core Competencies</h2>
             <p class="text-lg text-slate-600 text-center max-w-2xl mx-auto mb-12">
@@ -114,39 +118,34 @@
             </div>
         </section>
 
+        <!-- Professional & Academic Journey Section -->
         <section id="experience" class="scroll-mt-20">
             <h2 class="text-3xl font-bold text-slate-800 text-center mb-12">My Professional & Academic Journey</h2>
             <div class="relative max-w-4xl mx-auto">
                 <div class="absolute left-4 md:left-1/2 w-0.5 h-full bg-slate-300"></div>
-                
-                <div id="timeline-container" class="space-y-12">
-                    </div>
+                <div id="timeline-container" class="space-y-12"></div>
             </div>
         </section>
 
+        <!-- Projects Section -->
         <section id="projects" class="mt-20 md:mt-32 scroll-mt-20">
             <h2 class="text-3xl font-bold text-slate-800 text-center mb-12">Featured Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all">
                     <h3 class="font-bold text-xl text-slate-800 mb-2">PhishNet: Cybersecurity Solution</h3>
-                    <p class="text-slate-600 mb-4">
-                        An all-in-one cybersecurity solution designed to protect users from phishing attacks by scanning URLs and providing a trust score to determine safety.
-                    </p>
+                    <p class="text-slate-600 mb-4">An all-in-one cybersecurity solution designed to protect users from phishing attacks by scanning URLs and providing a trust score to determine safety.</p>
                     <h4 class="font-semibold text-md text-slate-700 mb-2">Key Features:</h4>
                     <ul class="list-disc list-inside text-sm text-slate-600 space-y-1">
                         <li>Trust Score for URL reliability.</li>
                         <li>AI-powered ChatBot for cybersecurity queries.</li>
                         <li>Real-time URL Detection for malicious links.</li>
-                        <li>Live website preview for safe Browse.</li>
+                        <li>Live website preview for safe browsing.</li>
                         <li>Browser Extension for immediate protection.</li>
                     </ul>
                 </div>
-
                 <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all">
                     <h3 class="font-bold text-xl text-slate-800 mb-2">Food Management System for NGOs</h3>
-                    <p class="text-slate-600 mb-4">
-                        A comprehensive application designed to empower NGOs in optimizing food distribution and managing sustenance for those in need.
-                    </p>
+                    <p class="text-slate-600 mb-4">A comprehensive application designed to empower NGOs in optimizing food distribution and managing sustenance for those in need.</p>
                     <h4 class="font-semibold text-md text-slate-700 mb-2">Functionality:</h4>
                     <ul class="list-disc list-inside text-sm text-slate-600 space-y-1">
                         <li>Food Inventory Management: Track supplies and expiration dates.</li>
@@ -158,31 +157,26 @@
             </div>
         </section>
 
+        <!-- Achievements Section -->
         <section id="achievements" class="mt-20 md:mt-32 scroll-mt-20 bg-white p-8 rounded-xl shadow-md">
             <h2 class="text-3xl font-bold text-slate-800 text-center mb-12">Achievements & Recognition</h2>
             <div class="space-y-6">
                 <div class="flex items-start">
-                    <div class="flex-shrink-0 mr-4 text-amber-500">
-                        <i class="fas fa-trophy text-2xl"></i>
-                    </div>
+                    <div class="flex-shrink-0 mr-4 text-amber-500"><i class="fas fa-trophy text-2xl"></i></div>
                     <div>
                         <h3 class="text-xl font-semibold">Winner of Innovera National Level Hackathon</h3>
                         <p class="text-md text-slate-600">Hosted by K.K Wagh College of Engineering</p>
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="flex-shrink-0 mr-4 text-amber-500">
-                        <i class="fas fa-award text-2xl"></i>
-                    </div>
+                    <div class="flex-shrink-0 mr-4 text-amber-500"><i class="fas fa-award text-2xl"></i></div>
                     <div>
                         <h3 class="text-xl font-semibold">Winner of Project Competition at TechGuru 2K25</h3>
                         <p class="text-md text-slate-600">Hosted by Guru Gobind Singh College of Engineering</p>
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="flex-shrink-0 mr-4 text-amber-500">
-                        <i class="fas fa-medal text-2xl"></i>
-                    </div>
+                    <div class="flex-shrink-0 mr-4 text-amber-500"><i class="fas fa-medal text-2xl"></i></div>
                     <div>
                         <h3 class="text-xl font-semibold">Semi-Finalist, National Coding League '24</h3>
                         <p class="text-md text-slate-600">Achieved a top position in this national coding competition.</p>
@@ -191,7 +185,7 @@
             </div>
         </section>
 
-
+        <!-- Extra-Curricular Activities Section -->
         <section id="activities" class="mt-20 md:mt-32 scroll-mt-20">
             <h2 class="text-3xl font-bold text-slate-800 text-center mb-12">Leadership & Community Involvement</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -214,23 +208,25 @@
             </div>
         </section>
 
+        <!-- Let's Collaborate Section -->
         <section id="contact" class="mt-20 md:mt-32 scroll-mt-20 bg-white p-8 rounded-xl shadow-md">
             <h2 class="text-3xl font-bold text-slate-800 text-center mb-4">Let's Collaborate</h2>
             <p class="text-lg text-slate-600 text-center max-w-2xl mx-auto mb-12">
                 Have a project idea, a question, or just want to connect? Reach out using the form below, and I'll get back to you as soon as possible!
             </p>
-            <form action="mailto:codebyarchie@gmail.com" method="post" enctype="text/plain" class="max-w-xl mx-auto space-y-6">
+            <!-- IMPORTANT: Replace the action URL with your own Formspree endpoint -->
+            <form id="contact-form" action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="max-w-xl mx-auto space-y-6">
                 <div>
                     <label for="name" class="block text-slate-700 text-sm font-semibold mb-2">Your Name</label>
-                    <input type="text" id="name" name="Name" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="John Doe" required>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="John Doe" required>
                 </div>
                 <div>
                     <label for="email" class="block text-slate-700 text-sm font-semibold mb-2">Your Email</label>
-                    <input type="email" id="email" name="Email" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="john.doe@example.com" required>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="john.doe@example.com" required>
                 </div>
                 <div>
                     <label for="message" class="block text-slate-700 text-sm font-semibold mb-2">Your Message</label>
-                    <textarea id="message" name="Message" rows="5" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="Looking forward to connecting!" required></textarea>
+                    <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="Looking forward to connecting!" required></textarea>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
@@ -238,6 +234,7 @@
                     </button>
                 </div>
             </form>
+            <p id="form-status" class="text-center mt-6 text-lg text-green-600"></p>
         </section>
 
     </main>
@@ -251,60 +248,17 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-
     // --- Data ---
     const skillsData = {
         labels: ['Linux', 'Ansible', 'Java', 'Git & GitHub', 'AWS', 'System Admin', 'Networking'],
         values: [90, 85, 75, 88, 70, 90, 65]
     };
-
     const journeyData = [
-        {
-            type: 'education',
-            date: 'July 2026',
-            title: 'B.Tech, Computer Science Engineering',
-            subtitle: 'Sandip University, Nashik',
-            details: 'Pursuing a degree with a focus on Cloud Technology & Information Security.'
-        },
-        {
-            type: 'internship',
-            date: 'June 2024 – July 2024',
-            title: 'INTERN / Java Programming',
-            subtitle: 'InternPe, Jaipur (Remote)',
-            details: `
-                <ul class="list-disc list-inside space-y-2 text-slate-600">
-                    <li>Gained hands-on experience in core Java concepts like OOP, exception handling, and file I/O.</li>
-                    <li>Developed and debugged Java applications in a collaborative, version-controlled (Git) environment.</li>
-                    <li>Strengthened problem-solving skills and learned to write clean, maintainable, and efficient Java code.</li>
-                </ul>`
-        },
-        {
-            type: 'internship',
-            date: 'June 2023 – August 2023',
-            title: 'INTERN / DevOps Engineer',
-            subtitle: 'Sunanda InfoTech Pvt. Ltd., Nashik',
-            details: `
-                <ul class="list-disc list-inside space-y-2 text-slate-600">
-                    <li>Installed, configured, and maintained Linux systems, performing OS/kernel upgrades with RPM and YUM.</li>
-                    <li>Managed users, groups, firewall rules (firewalld), and SELinux policies to ensure system security.</li>
-                    <li>Automated infrastructure tasks using Ansible, creating playbooks for deployment and configuration management.</li>
-                    <li>Configured and managed core network services including FTP, Web (Apache), NFS, and SAMBA.</li>
-                </ul>`
-        },
-        {
-            type: 'education',
-            date: 'June 2023',
-            title: 'Diploma in Information Technology',
-            subtitle: 'MET Bhujbal Knowledge City, Nashik',
-            details: 'Completed a comprehensive diploma program focusing on key IT fundamentals.'
-        },
-        {
-            type: 'education',
-            date: 'March 2020',
-            title: 'SSC',
-            subtitle: "PVG's Dr. Kakasaheb Deodhar English, Nashik",
-            details: 'Completed secondary school certificate, building a strong academic foundation.'
-        },
+        { type: 'education', date: 'July 2026', title: 'B.Tech, Computer Science Engineering', subtitle: 'Sandip University, Nashik', details: 'Pursuing a degree with a focus on Cloud Technology & Information Security.'},
+        { type: 'internship', date: 'June 2024 – July 2024', title: 'INTERN / Java Programming', subtitle: 'InternPe, Jaipur (Remote)', details: `<ul class="list-disc list-inside space-y-2 text-slate-600"><li>Gained hands-on experience in core Java concepts like OOP, exception handling, and file I/O.</li><li>Developed and debugged Java applications in a collaborative, version-controlled (Git) environment.</li><li>Strengthened problem-solving skills and learned to write clean, maintainable, and efficient Java code.</li></ul>`},
+        { type: 'internship', date: 'June 2023 – August 2023', title: 'INTERN / DevOps Engineer', subtitle: 'Sunanda InfoTech Pvt. Ltd., Nashik', details: `<ul class="list-disc list-inside space-y-2 text-slate-600"><li>Installed, configured, and maintained Linux systems, performing OS/kernel upgrades with RPM and YUM.</li><li>Managed users, groups, firewall rules (firewalld), and SELinux policies to ensure system security.</li><li>Automated infrastructure tasks using Ansible, creating playbooks for deployment and configuration management.</li><li>Configured and managed core network services including FTP, Web (Apache), NFS, and SAMBA.</li></ul>`},
+        { type: 'education', date: 'June 2023', title: 'Diploma in Information Technology', subtitle: 'MET Bhujbal Knowledge City, Nashik', details: 'Completed a comprehensive diploma program focusing on key IT fundamentals.'},
+        { type: 'education', date: 'March 2020', title: 'SSC', subtitle: "PVG's Dr. Kakasaheb Deodhar English, Nashik", details: 'Completed secondary school certificate, building a strong academic foundation.'},
     ];
 
     // --- Skills Chart ---
@@ -313,55 +267,12 @@ document.addEventListener('DOMContentLoaded', () => {
         type: 'bar',
         data: {
             labels: skillsData.labels,
-            datasets: [{
-                label: 'Proficiency Level',
-                data: skillsData.values,
-                backgroundColor: 'rgba(217, 119, 6, 0.7)', // amber-500 with opacity
-                borderColor: 'rgba(217, 119, 6, 1)', // amber-600
-                borderWidth: 1,
-                borderRadius: 4,
-            }]
+            datasets: [{ label: 'Proficiency Level', data: skillsData.values, backgroundColor: 'rgba(217, 119, 6, 0.7)', borderColor: 'rgba(217, 119, 6, 1)', borderWidth: 1, borderRadius: 4, }]
         },
         options: {
-            indexAxis: 'y',
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    display: false
-                },
-                tooltip: {
-                    backgroundColor: '#1e293b', // slate-800
-                    titleFont: { size: 14, weight: 'bold' },
-                    bodyFont: { size: 12 },
-                    padding: 10,
-                    cornerRadius: 6,
-                    displayColors: false,
-                }
-            },
-            scales: {
-                x: {
-                    beginAtZero: true,
-                    grid: {
-                        color: '#e2e8f0' // slate-200
-                    },
-                    ticks: {
-                       display: false
-                    }
-                },
-                y: {
-                    grid: {
-                        display: false
-                    },
-                    ticks: {
-                        color: '#475569', // slate-600
-                        font: {
-                            size: 14,
-                            weight: '500'
-                        }
-                    }
-                }
-            }
+            indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1e293b', titleFont: { size: 14, weight: 'bold' }, bodyFont: { size: 12 }, padding: 10, cornerRadius: 6, displayColors: false, } },
+            scales: { x: { beginAtZero: true, grid: { color: '#e2e8f0' }, ticks: { display: false } }, y: { grid: { display: false }, ticks: { color: '#475569', font: { size: 14, weight: '500' } } } }
         }
     });
 
@@ -370,30 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
     journeyData.forEach((item, index) => {
         const isLeft = index % 2 === 0;
         const iconBg = item.type === 'internship' ? 'bg-amber-500' : 'bg-slate-700';
-        
-        const timelineItemHTML = `
-            <div class="relative timeline-item">
-                <div class="absolute left-4 md:left-1/2 top-1 w-4 h-4 rounded-full ${iconBg} -translate-x-1/2 border-4 border-white"></div>
-                
-                <div class="ml-10 md:ml-0 ${isLeft ? 'md:mr-auto md:pr-10' : 'md:ml-auto md:pl-10'} md:w-1/2">
-                    <div class="cursor-pointer bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-xl transition-shadow timeline-item-header">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-sm font-semibold text-amber-600">${item.date}</p>
-                                <h3 class="text-xl font-bold text-slate-800 mt-1">${item.title}</h3>
-                                <p class="text-md text-slate-500">${item.subtitle}</p>
-                            </div>
-                            <div class="text-xl text-slate-400 transform transition-transform">
-                                &#9662;
-                            </div>
-                        </div>
-                        <div class="timeline-item-content mt-4">
-                            ${item.details}
-                        </div>
-                    </div>
-                </div>
-            </div>`;
-        
+        const timelineItemHTML = `<div class="relative timeline-item"><div class="absolute left-4 md:left-1/2 top-1 w-4 h-4 rounded-full ${iconBg} -translate-x-1/2 border-4 border-white"></div><div class="ml-10 md:ml-0 ${isLeft ? 'md:mr-auto md:pr-10' : 'md:ml-auto md:pl-10'} md:w-1/2"><div class="cursor-pointer bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-xl transition-shadow timeline-item-header"><div class="flex items-center justify-between"><div><p class="text-sm font-semibold text-amber-600">${item.date}</p><h3 class="text-xl font-bold text-slate-800 mt-1">${item.title}</h3><p class="text-md text-slate-500">${item.subtitle}</p></div><div class="text-xl text-slate-400 transform transition-transform">&#9662;</div></div><div class="timeline-item-content mt-4">${item.details}</div></div></div></div>`;
         timelineContainer.innerHTML += timelineItemHTML;
     });
 
@@ -410,23 +298,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Active Nav Link Scrolling ---
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-link');
-
     window.addEventListener('scroll', () => {
         let current = '';
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
-            if (pageYOffset >= sectionTop - 60) {
-                current = section.getAttribute('id');
-            }
+            if (pageYOffset >= sectionTop - 60) { current = section.getAttribute('id'); }
         });
-
         navLinks.forEach(link => {
             link.classList.remove('active');
-            if (link.getAttribute('href') === `#${current}`) {
-                link.classList.add('active');
-            }
+            if (link.getAttribute('href') === `#${current}`) { link.classList.add('active'); }
         });
     });
+
+    // --- Formspree Form Submission ---
+    const form = document.getElementById('contact-form');
+    const status = document.getElementById('form-status');
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      const data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset();
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
 });
 </script>
 
